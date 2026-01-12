@@ -1,0 +1,68 @@
+
+/* src/pages/AreasPage.css */
+.areas-page {
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.areas-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.site-info h1 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+.site-info p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+}
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.area-card {
+  background: white;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.area-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.area-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.area-card h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.equipment-count {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.area-card .btn-secondary {
+  width: 100%;
+}
