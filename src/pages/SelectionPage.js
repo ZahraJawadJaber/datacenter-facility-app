@@ -46,8 +46,8 @@ const SelectionPage = ({ setSelectedSite }) => {
   return (
     <div className="selection-page">
       <div className="selection-container">
-        <h1>Datacenter Walkthrough Audit</h1>
-        <p className="subtitle">Select your location to begin the audit</p>
+        <h1>DCEO Facility Walkthrough</h1>
+        <p className="subtitle">Welcome to your facility inspection buddy, please select your location:</p>
         
         <form onSubmit={handleSubmit} className="selection-form">
           <div className="form-group">

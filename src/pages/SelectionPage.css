@@ -73,3 +73,11 @@
   margin-top: 16px;
   width: 100%;
 }
+
+/* Amazon Ember Font */
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url('https://m.media-amazon.com/images/G/01/AUIClients/AmazonEmberCdnUrl-Bold-4c1c2c9e6135f4db3c5e7d1b9c0e8c5e8e5e5e5e._V1_.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
